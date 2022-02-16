@@ -6,7 +6,7 @@ const DefaultLayout = (props) => {
             <div className="header box-shadow-1">
                 <div className="d-flex justify-content-between">
 
-                    <h1>Ra Cars</h1>
+                    <h1>RaCars</h1>
 
                     <button>user</button>
 
