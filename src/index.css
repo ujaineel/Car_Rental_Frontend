@@ -21,10 +21,91 @@ h1{
   color: orangered;
 }
 
+p{
+  margin: 5px !important;
+  text-align: left;
+  padding: 0;
+}
+
+.btn1{
+  width: 100px;
+  height: 40px;
+  box-shadow: none !important;
+  background-color: white !important;
+  color: orangered !important;
+  border: 1px solid orangered;
+}
+
+.btn1:hover{
+  transition: 0.3s;
+  background-color: orangered !important;
+  color: white !important;
+}
+
 .header {
   padding: 10px;
 }
 
 .content {
   min-height: 90vh;
+}
+
+.car {
+  border-radius: 5px;
+  margin-top: 50px;
+  height: 225px;
+  transition: 0.3s;
+}
+
+.car:hover{
+  height: 350px
+}
+
+.car:hover > .car-content {
+  transform: translateY(-60px);
+  transition-delay: 0.15s;
+  opacity: 1;
+}
+
+.car-content{
+  transform: translateY(-180px);
+  opacity: 0;
+  transition: 0.1ms;
+}
+
+.carImg{
+  width: 100%;
+  border-radius: 5px;
+  transform: translateY(-60px);
+}
+
+.spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+
+.login{
+  background-color: black;
+  min-height: 100vh;
+}
+
+.login label, .login h1{
+  color: rgba(214, 189, 189) !important;
+}
+
+.login-form{
+  background-color: #1F1F1F;
+}
+
+.login-form input{
+  background-color: #333333 !important;
+  border: none !important;
+  color: white;
+  opacity: 0.5;
+}
+
+.text-left{
+  text-align: left;
 }

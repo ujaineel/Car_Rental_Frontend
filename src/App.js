@@ -5,10 +5,13 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import BookingCar from "./pages/BookingCar";
 
+import "antd/dist/antd.min.css";
 
 function App() {
   return (
     <div className="App">
+
+
       <BrowserRouter>
           <Routes>
               <Route path="/" exact element={<Home />} />
